@@ -1,0 +1,23 @@
+[submodule "hardware/sickivp-ruler"]
+	path = hardware/sickivp-ruler
+	url = git@gitlab.ida.liu.se:tddd96-grupp9/sickivp-ruler.git
+	branch = master
+[submodule "hardware/isy-phototable"]
+	path = hardware/isy-phototable
+	url = git@gitlab.ida.liu.se:tddd96-grupp9/isy-phototable.git
+	branch = master
+[submodule "hardware/technosoft-linear-drive"]
+	path = hardware/technosoft-linear-drive
+	url = git@gitlab.ida.liu.se:tddd96-grupp9/technosoft-linear-drive.git
+	branch = master
+[submodule "ros-node"]
+	path = ros-node
+	url = git@gitlab.ida.liu.se:tddd96-grupp9/ros-node.git
+  branch = master
+[submodule "network-communication"]
+	path = network-communication
+	url = git@gitlab.ida.liu.se:tddd96-grupp9/network-communication.git
+  branch = master
+[submodule]
+	network-communication = master
+	ros-node = master

@@ -1,0 +1,4 @@
+[submodule "files/treeD"]
+	path = files/treeD
+	url = https://gitlab.ida.liu.se/tddd96-grupp9/treeD.git
+	branch = master

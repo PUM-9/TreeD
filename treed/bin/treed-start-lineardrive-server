@@ -1,0 +1,2 @@
+#!/bin/bash
+(python3 /opt/treed/bin/slave_linear.py &> /tmp/treed-linear.log &)

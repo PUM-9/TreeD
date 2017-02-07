@@ -1,0 +1,52 @@
+{
+    "slave_ip": "10.1.1.11",
+    "port": 11100,
+    "executables": {
+        "debug": 0,
+        "success": 0,
+        "error": 0,
+        "test": {
+            "class": "board",
+            "func": "test"
+        },
+        "open": {
+            "class": "board",
+            "func": "open"
+        },
+        "reset_board": {
+            "class": "board",
+            "func": "reference_point"
+        },
+        "close": {
+            "class": "board",
+            "func": "close"
+        },
+        "set_curvature": {
+	    "class": "board",
+	    "func": "set_curvature"
+	},
+	"set_rotation": {
+	    "class": "board",
+	    "func": "set_rotation"
+	},
+	"get_board_curvature":{
+	    "class": "board",
+	    "func": "get_curvature"
+	},
+	"get_board_rotation":{
+	    "class": "board",
+	    "func": "get_rotation"
+	}
+    },
+    "files": {
+        "board": {
+            "path": "C:\\treeD\\",
+            "module": "photoboard_control_system",
+            "class_name": "PhotoBoard",
+            "args": {
+                "dll_path": "C:\\Fotobord\\Fotobord\\FotoBordDLL\\Debug\\",
+                "dll_name": "FotoBordDLL"
+            }
+        }
+    }
+}

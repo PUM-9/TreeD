@@ -1,0 +1,1 @@
+This is the Graphical User Interface software for the client.

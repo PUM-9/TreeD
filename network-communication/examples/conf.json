@@ -1,0 +1,40 @@
+{
+    "slave_ip": "127.0.0.1",
+    "port": 65000,
+    "executables": {
+        "debug": 0,
+        "success": 0,
+        "error": 0,
+        "something": 0,
+        "do_thing": {
+            "module": "example",
+            "func": "do_thing"
+        },
+        "do_error": {
+            "module": "example",
+            "func": "do_error"
+        },
+        "reuse_network": {
+            "module": "example",
+            "func": "reuse_network"
+        },
+        "move": {
+            "class": "linear",
+            "func": "goto_position"
+        }
+    },
+    "files": {
+        "linear": {
+            "path": "../",
+            "module": "lineardrive",
+            "class_name": "LinearDrive",
+            "args": {
+                "arg1": 10
+            }
+        },
+    	"example": {
+            "path": "src/",
+            "module": "example"
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "slave_ip": "10.1.1.11",
+    "port": 11102,
+    "executables": {
+        "debug": 0,
+        "success": 0,
+        "error": 0,
+        "init": {
+            "class": "ruler",
+            "func": "initialize_ruler"
+        },
+        "start": {
+            "class": "ruler",
+            "func": "start"
+        },
+        "peek": {
+            "class": "ruler",
+            "func": "get_available_buffers"
+        },
+        "read": {
+            "class": "ruler",
+            "func": "read_buffer"
+        },
+	"close": {
+            "class": "ruler",
+            "func": "close"
+        }
+    },
+    "files": {
+        "ruler": {
+            "path": "C:\\treeD\\",
+            "module": "sickivp_hardware_wrapper",
+		"class_name": "Ruler",
+		"args": {
+			"dll_path": "C:\\treeD",
+			"dll_name": "icon_c_40"
+		}
+        }
+    }
+}

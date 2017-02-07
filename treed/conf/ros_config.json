@@ -1,0 +1,67 @@
+{
+    "devices": 
+    {
+        "linear": 
+        {
+            "conf_path": "/etc/treed/linear.json",
+            "get": 
+            {
+                "position": "get_position",
+                "speed": "get_speed"
+            },
+            "set": 
+            {
+                "position": "set_position",
+                "speed": "set_speed",
+                "relative": "move_relative"
+            },
+            "reset": 
+            {
+                "lineardrive": "reset_lineardrive"
+            }
+        },
+        "ruler": 
+        {
+            "conf_path": "/etc/treed/ruler.json",
+            "get": { },
+            "set": { },
+            "reset": { }
+        },
+        "board": 
+        {
+            "conf_path": "/etc/treed/board.json",
+            "get": 
+            { 
+                "board_curvature": "get_board_curvature",
+                "board_rotation": "get_board_rotation"
+            },
+            "set": 
+            {
+                "board_curvature": "set_curvature",
+                "board_rotation": "set_rotation"
+            },
+            "reset": 
+            {
+                "board": "reset_board"
+            }
+        }
+    },
+    "options": 
+    {
+        "start_position": 0,
+        "finish_position": 600,
+        "ruler": 
+        {
+            "ip": "192.168.0.12",
+            "prm_file": "C:\\treeD\\settings.prm",
+            "timeout": 500,
+            "profiles_per_buffer": 256,
+            "buffer_size": 50,
+            "poll_rate": 0.2
+        },
+        "board": 
+        {
+            "port": 2
+        }
+    }
+}

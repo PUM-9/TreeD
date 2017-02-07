@@ -1,0 +1,4 @@
+---
+int32 response_type
+string message
+string key

@@ -1,0 +1,2 @@
+string setting
+string value

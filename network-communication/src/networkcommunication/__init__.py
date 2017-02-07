@@ -1,0 +1,6 @@
+__description__ = "A library for remotely running python code using asyncio."
+__license__ = "LGPL"
+__uri__ = ""
+__author__ = "Viktor Ringdahl, Victor Karlsson Sehlin"
+__email__ = "vikri500@student.liu.se"
+__version__ = "0.1.0"

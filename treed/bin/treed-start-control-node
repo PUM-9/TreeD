@@ -1,0 +1,7 @@
+#!/bin/bash
+(
+source /opt/ros/indigo/setup.bash
+source /opt/treed/ros-node/devel/setup.bash
+rosrun treeD_control_pkg treeD_control_node.py &> /tmp/treed-control.log &
+)
+

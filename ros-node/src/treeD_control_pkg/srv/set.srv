@@ -1,0 +1,7 @@
+string key
+string setting
+string value
+---
+string response_type
+string message
+
